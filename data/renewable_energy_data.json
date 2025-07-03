@@ -1,0 +1,182 @@
+{
+  "EG.ELC.RNEW.ZS": {
+    "COL": {
+      "code": "internal",
+      "message": "api call failed, status code: 401, body: {\"message\":\"Invalid API key. Go to https:\\/\\/docs.rapidapi.com\\/docs\\/keys for more info.\"}"
+    },
+    "CHN": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "ESP": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "USA": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "BRA": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "CHL": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "MEX": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    }
+  },
+  "EG.ELC.SOLR.ZS": {
+    "COL": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "CHN": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "ESP": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "USA": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "BRA": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "CHL": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "MEX": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    }
+  },
+  "EG.ELC.HYRO.ZS": {
+    "COL": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "CHN": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "ESP": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "USA": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "BRA": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "CHL": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "MEX": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    }
+  },
+  "EG.FEC.RNEW.ZS": {
+    "COL": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "CHN": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "ESP": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "USA": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "BRA": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "CHL": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "MEX": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    }
+  },
+  "EG.ELC.RNWX.KH": {
+    "COL": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "CHN": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "ESP": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "USA": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "BRA": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "CHL": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "MEX": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    }
+  },
+  "EG.ELC.SOLR.KH": {
+    "COL": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "CHN": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "ESP": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "USA": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "BRA": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "CHL": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    },
+    "MEX": {
+      "code": "internal",
+      "message": "api call failed, status code: 429, body: {\"message\":\"Too many requests\"}"
+    }
+  }
+}
