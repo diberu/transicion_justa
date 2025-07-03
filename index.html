@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transición Energética Justa - Energía Solar en Colombia</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Transición Energética Justa</h1>
+            <h2>Energía Solar en Colombia</h2>
+            <nav>
+                <ul>
+                    <li><a href="#informacion">Información</a></li>
+                    <li><a href="#datos-historicos">Datos Históricos</a></li>
+                    <li><a href="#calculadora">Calculadora</a></li>
+                    <li><a href="#dashboard">Dashboard</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="informacion" class="section">
+            <div class="container">
+                <h2>Energía Solar en Colombia</h2>
+                <div class="info-grid">
+                    <div class="info-text">
+                        <p>Colombia, con su ubicación privilegiada cerca del ecuador, recibe una radiación solar promedio de 4.5 kWh/m²/día, lo que representa un potencial extraordinario para la generación de energía solar. Esta ventaja geográfica, combinada con políticas energéticas progresivas como la Ley 1715 de 2014 (modificada por la Ley 2099 de 2021), ha impulsado significativamente el desarrollo de proyectos solares en el país.</p>
+                        
+                        <p>La transición hacia energías renovables como la solar no solo contribuye a la reducción de emisiones de gases de efecto invernadero, sino que también fortalece la seguridad energética del país, especialmente en regiones no interconectadas donde la energía solar ofrece una alternativa viable y sostenible.</p>
+                        
+                        <p>En los últimos años, Colombia ha experimentado un crecimiento exponencial en su capacidad instalada de energía solar fotovoltaica, pasando de apenas unos pocos megavatios en 2015 a más de 470 MW en 2022. Este crecimiento refleja tanto el compromiso del país con la diversificación de su matriz energética como la creciente competitividad económica de la tecnología solar.</p>
+                    </div>
+                    <div class="info-image">
+                        <img src="img/solar-panels.jpg" alt="Paneles solares en Colombia">
+                        <p class="caption">Instalación de paneles solares en Colombia</p>
+                    </div>
+                </div>
+
+                <div class="benefits">
+                    <h3>Beneficios de la Energía Solar</h3>
+                    <div class="benefits-grid">
+                        <div class="benefit-card">
+                            <div class="benefit-icon">🌍</div>
+                            <h4>Ambiental</h4>
+                            <p>Reduce emisiones de CO₂ y otros contaminantes, contribuyendo a mitigar el cambio climático.</p>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="benefit-icon">💰</div>
+                            <h4>Económico</h4>
+                            <p>Disminuye costos energéticos a largo plazo y crea nuevas oportunidades de empleo.</p>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="benefit-icon">🔋</div>
+                            <h4>Energético</h4>
+                            <p>Diversifica la matriz energética y reduce la dependencia de combustibles fósiles.</p>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="benefit-icon">🏘️</div>
+                            <h4>Social</h4>
+                            <p>Mejora el acceso a la electricidad en zonas rurales y no interconectadas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="datos-historicos" class="section">
+            <div class="container">
+                <h2>Datos Históricos (2010-2022)</h2>
+                <div class="table-container">
+                    <table id="solar-data-table">
+                        <thead>
+                            <tr>
+                                <th>Año</th>
+                                <th>Capacidad Instalada (MW)</th>
+                                <th>Generación (GWh)</th>
+                                <th>% del Consumo Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Los datos se cargarán dinámicamente con JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="calculadora" class="section">
+            <div class="container">
+                <h2>Calculadora de Consumo Energético</h2>
+                <div class="calculator-container">
+                    <div class="calculator-form">
+                        <div class="form-group">
+                            <label for="consumption">Consumo mensual (kWh):</label>
+                            <input type="number" id="consumption" min="0" value="200">
+                        </div>
+                        <div class="form-group">
+                            <label for="renewable-percentage">Porcentaje de energía renovable deseado:</label>
+                            <input type="range" id="renewable-percentage" min="0" max="100" value="30" step="1">
+                            <span id="percentage-display">30%</span>
+                        </div>
+                        <button id="calculate-btn">Calcular</button>
+                    </div>
+                    <div class="calculator-results">
+                        <h3>Resultados</h3>
+                        <div id="results-container">
+                            <p>Complete el formulario y presione "Calcular" para ver los resultados.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="dashboard" class="section">
+            <div class="container">
+                <h2>Dashboard Interactivo</h2>
+                <div class="dashboard-grid">
+                    <div class="chart-container">
+                        <h3>Capacidad Instalada por Año (MW)</h3>
+                        <canvas id="capacity-chart"></canvas>
+                    </div>
+                    <div class="chart-container">
+                        <h3>Generación por Año (GWh)</h3>
+                        <canvas id="generation-chart"></canvas>
+                    </div>
+                    <div class="chart-container">
+                        <h3>Distribución de Capacidad Solar (2022)</h3>
+                        <canvas id="pie-chart"></canvas>
+                    </div>
+                    <div class="chart-container">
+                        <h3>Evolución del % Solar en el Consumo</h3>
+                        <canvas id="area-chart"></canvas>
+                    </div>
+                    <div class="chart-container wide">
+                        <h3>Comparativa Regional - Capacidad Instalada (MW) en 2022</h3>
+                        <canvas id="comparison-chart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Transición Energética Justa - Proyecto Final de Programación</p>
+        </div>
+    </footer>
+
+    <script src="js/data-loader.js"></script>
+    <script src="js/charts.js"></script>
+    <script src="js/calculator.js"></script>
+</body>
+</html>
